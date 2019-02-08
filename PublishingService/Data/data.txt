@@ -1,0 +1,5 @@
+stato:schedulata
+orario:1800
+data:08/02/2019
+ambienti:collaudo-test
+versione:19.2.8.1

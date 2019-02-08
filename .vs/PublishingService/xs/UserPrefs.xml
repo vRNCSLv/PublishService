@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{71CE2095-7B15-4F22-BBAA-E6B2F211800E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PublishingService/Models/PublishModel.cs">
+    <Files>
+      <File FileName="PublishingService/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="PublishingService/Controllers/ValuesController.cs" Line="30" Column="44" />
+      <File FileName="PublishingService/Logic/DataFactory.cs" Line="68" Column="57" />
+      <File FileName="PublishingService/Startup.cs" Line="1" Column="1" />
+      <File FileName="PublishingService/Interface/IReceivable.cs" Line="6" Column="28" />
+      <File FileName="PublishingService/Models/ErrorModel.cs" Line="14" Column="28" />
+      <File FileName="PublishingService/Models/PublishModel.cs" Line="33" Column="35" />
+      <File FileName="PublishingService/PublishingService.csproj" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PublishingService PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
