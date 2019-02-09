@@ -3,6 +3,6 @@ namespace PublishingService
 {
     public interface IReceivable
     {
-        Object GetTempValue(IReceivable rec);
+        //Object GetTempValue(IReceivable rec);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using PublishingService.Models;
@@ -26,11 +27,13 @@ namespace PublishingService.Logic
         }
         #endregion
 
-        private readonly string Path = "../../../data.txt";
+        private readonly string Path = "../../data.txt";
 
-        public PublishModel GetData()
+        public IReceivable GetData()
         {
             String line;
+
+            Debug.WriteLine("DEBUG: Init");
 
 
             try
@@ -38,6 +41,8 @@ namespace PublishingService.Logic
                 //Pass the file path and file name to the StreamReader constructor
                 //"//IP//home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/data.txt""../../../../data.txt
                 StreamReader sr = new StreamReader(Path);
+                Debug.WriteLine("DEBUG: " + sr.ToString());
+                
                 PublishModel infoPublish = new PublishModel();
 
                 //Read the first line of text
@@ -51,23 +56,23 @@ namespace PublishingService.Logic
                     switch (key.ToLower())
                     {
                         case "stato":
-                            infoPublish.Stato = line.Substring(line.IndexOf(':'));
+                            infoPublish.Stato = line.Substring(line.IndexOf(':') + 1);
                             break;
                         case "orario":
-                            infoPublish.Orario = line.Substring(line.IndexOf(':'));
+                            infoPublish.Orario = line.Substring(line.IndexOf(':') + 1);
                             break;
                         case "data":
-                            infoPublish.Data = line.Substring(line.IndexOf(':'));
+                            infoPublish.Data = line.Substring(line.IndexOf(':') + 1);
                             break;
                         case "ambienti":
-                            List<string> ambientiToPublish = line.Substring(line.IndexOf(':')).Split('-', StringSplitOptions.None).OfType<string>().ToList();
+                            List<string> ambientiToPublish = line.Substring(line.IndexOf(':') + 1).Split('-', StringSplitOptions.None).OfType<string>().ToList();
                             if(ambientiToPublish.Count != 0)
                             {
                                 infoPublish.Ambienti = new List<string>(ambientiToPublish);
                             }
                             break;
                         case "versione":
-                            infoPublish.Versione = line.Substring(line.IndexOf(':'));
+                            infoPublish.Versione = line.Substring(line.IndexOf(':') + 1);
                             break;
                         default:
                             break;
@@ -87,7 +92,7 @@ namespace PublishingService.Logic
             catch (Exception e)
             {
                 Console.WriteLine("Exception: " + e.Message);
-                return new PublishModel();
+                return new PublishErrorModel(e.Message);
             }
             finally
             {

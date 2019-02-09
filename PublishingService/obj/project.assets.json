@@ -12075,11 +12075,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/PublishService/PublishingService/PublishingService/PublishingService.csproj",
+      "projectUniqueName": "/home/silvio/Documents/Projects/AST/PublishService/PublishingService/PublishingService.csproj",
       "projectName": "PublishingService",
-      "projectPath": "/home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/PublishService/PublishingService/PublishingService/PublishingService.csproj",
+      "projectPath": "/home/silvio/Documents/Projects/AST/PublishService/PublishingService/PublishingService.csproj",
       "packagesPath": "/home/silvio/.nuget/packages/",
-      "outputPath": "/home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/PublishService/PublishingService/PublishingService/obj",
+      "outputPath": "/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

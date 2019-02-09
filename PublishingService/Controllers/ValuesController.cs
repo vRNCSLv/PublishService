@@ -23,9 +23,9 @@ namespace PublishingService.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public PublishModel Get(int id)
+        public IReceivable Get(int id)
         {
-            PublishModel dataFound = DataFactory.GetInstance().GetData();
+            IReceivable dataFound = DataFactory.GetInstance().GetData();
 
             return dataFound;
         }

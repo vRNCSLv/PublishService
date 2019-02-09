@@ -12,3 +12,17 @@
 /home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/PublishService/PublishingService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.RazorTargetAssemblyInfo.cache
 /home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/PublishService/PublishingService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.dll
 /home/silvio/Documents/PubblicazioneAST/PubblicazioneWS/PublishService/PublishingService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.pdb
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.dll
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.pdb
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.csprojAssemblyReference.cache
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.csproj.CoreCompileInputs.cache
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.RazorAssemblyInfo.cache
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.RazorAssemblyInfo.cs
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.AssemblyInfoInputs.cache
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.AssemblyInfo.cs
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/obj/Debug/netcoreapp2.2/PublishingService.RazorTargetAssemblyInfo.cache
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/bin/Debug/netcoreapp2.2/PublishingService.deps.json
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/bin/Debug/netcoreapp2.2/PublishingService.runtimeconfig.json
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/bin/Debug/netcoreapp2.2/PublishingService.runtimeconfig.dev.json
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/bin/Debug/netcoreapp2.2/PublishingService.dll
+/home/silvio/Documents/Projects/AST/PublishService/PublishingService/bin/Debug/netcoreapp2.2/PublishingService.pdb

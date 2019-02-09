@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PublishingService.Models
 {
-    public class PublishModel // : IReceivable
+    public class PublishModel : IReceivable
     {
         private string _stato;
         public string Stato
